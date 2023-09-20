@@ -10,7 +10,7 @@
 ```npm install cypress```
 [Follow these instructions to install Cypress.](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
-#### install cypress-mochawesome-reporter
+### 3. install cypress-mochawesome-reporter
 ```npm install cypress-mochawesome-reporter --no-save```
 
 ## Execute testing for this repo
