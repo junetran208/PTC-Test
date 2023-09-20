@@ -1,0 +1,26 @@
+{
+  "name": "PTCTestPrj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "cypress:Dev": "cypress open",
+   "cypress:test": "cypress run --browser chrome --headed",
+    "test:testing": "cypress run --env configFile=testing",
+    "test:staging": "cypress run --env configFile=staging",
+    "test:production": "cypress run --env configFile=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  }
+}
